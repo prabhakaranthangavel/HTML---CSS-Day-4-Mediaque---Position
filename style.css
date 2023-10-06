@@ -1,0 +1,11 @@
+.header{
+    background-color: red;
+    color: white;
+}
+
+@media(max-width:500px) {
+    .header{
+        background-color: black;
+        color: chartreuse;
+    }
+}

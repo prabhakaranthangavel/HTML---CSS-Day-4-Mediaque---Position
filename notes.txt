@@ -1,0 +1,53 @@
+Contents:
+
+1.mediaqueries
+
+2.position
+
+*************************************************************************************************************************
+
+MEDIAQUERIES:
+
+what is mediaqueries?
+
+===>Responsive is called mediaqueries.
+
+===>mediaqueries என்பது screen alignment செய்வதற்காக பயன்படுத்துகிறோம்.
+
+===>பச்சோந்தி கதையை ஞாபகம் வைத்துக் கொள்ள வேண்டும்.
+    அதாவது பச்சோந்தி எப்படி இடத்திற்கு இடம் தனது நிறத்தை மாற்றமோ 
+    அதுபோல் நம்முடைய Responsive ல் screen ஐ சுருக்கினால்
+    தன்னுடைய content ஆனது மாறாமல் இருக்க வேண்டும்.
+    அதற்காக பயன்படுவதுதான் mediaqueries ஆகும்.
+    இதனைத்தான் mediaqueries என்கிறோம்.
+
+===>mediaqueries கொடுப்பதற்கு 4 வழிகள் உள்ளன.
+(1)screen   (2)print   (3)speech    (4)all
+
+===>(1)screen : நாம் பார்க்கக்கூடிய web ஐ தான் screen என்று கூறுகிறோம்.
+
+===>(2)print : Ctrl+P என்று கொடுத்து print செய்வது.
+
+===>(3)speech : web ஆனது நம்மிடம் பேசுவது Eg:Google Translate.
+
+===>(4)all : மேற்கூறிய அனைத்தையும் செய்வது. 
+
+===>Syntax : @media (max-width or min-width:000px)
+
+===>இரண்டு properties களை ஒரே mediaqueriesல் எழுத and ஐ பயன்படுத்தவும்.
+    அதற்கான Example கீழ்வருமாறு:
+
+    @media (max-width or min-width:000px) and (orientation:potrait)
+
+===>ஏதேனும் ஒரு properties ஐ மட்டும் mediaqueriesல் எழுத (or அல்லது ,) ஐ பயன்படுத்தவும்.
+    அதற்கான Example கீழ்வருமாறு:
+
+    @media (max-width or min-width:0000px) , (orientation:potrait)
+
+*************************************************************************************************************************
+
+POSITION:
+
+===>Refer To https://positiondemo.netlify.app/
+
+*************************************************************************************************************************
